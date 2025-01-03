@@ -1,0 +1,26 @@
+.home {
+  padding: 2rem;
+  margin: 0.5rem 0;
+  text-align:center;
+  background-color: var(--background);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+  border-radius: 8px;
+}
+.home img{  
+  width: auto; /* Adjust width */
+  height: auto;   /* Maintain aspect ratio */
+  max-width: 300px; /* Or you can use max-width for responsive resizing */
+  
+}
+.home h1 {
+  font-family: Allura;
+  font-size: 3rem;
+  color: var(--text);
+}
+
+.home p {
+  font-family: Allura;
+  font-size: 1.5rem;
+  color: var(--text);
+  margin-top: 1rem;
+}

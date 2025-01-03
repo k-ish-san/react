@@ -1,0 +1,114 @@
+.about {
+  padding: 2rem;
+  margin: 0.5rem 0;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+  border-radius: 8px;
+  background-color: var(--background);
+
+}
+
+.about h2 {
+  font-family: 'Courier New', Courier, monospace;
+  letter-spacing: 3px;
+  font-variant: small-caps;
+  font-size: 2.5rem;
+  color: var(--text);
+}
+
+.about p {
+  font-size: 1.2rem;
+  color: var(--text);
+  line-height: 1.6;
+
+}
+
+.education {
+  padding: 2rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+  border-radius: 8px;
+  background-color: var(--background);
+ 
+}
+
+.education h2 {
+  font-family: 'Courier New', Courier, monospace;
+  letter-spacing: 3px;
+  font-variant: small-caps;
+  font-size: 2.5rem;
+  color: var(--text);
+}
+
+.education p {
+  letter-spacing: 1.5px;
+  font-size: 1.2rem;
+  color: var(--text);
+
+}
+
+.education li {
+  font-family: Allura;
+  letter-spacing: 3px;
+  list-style-type: circle;
+  font-size: 1.2rem;
+  color: var(--text);
+  
+}
+
+  
+.icon-container {
+  display: flex;
+  justify-content: left;
+  flex-wrap: wrap;
+  gap: 40px;
+  margin: 2rem;
+}
+.icon {
+  font-size: 3rem; /* Adjust size */
+}
+
+.icon-label {
+  margin-top: 10px;
+  font-size: 1rem;
+}
+  
+.text-var {
+  color: var(--text);
+  font-variant: small-caps;
+    
+}
+
+
+.btn {
+  margin: 1rem;
+  background: var(--background); /* Gradient background */
+  color: var(--primary); /* Text color */
+  border: none; /* Remove default border */
+  border-radius: 15px; /* Rounded edges */
+  padding: 12px 24px; /* Button size */
+  font-size: 16px; /* Text size */
+  font-weight: bold; /* Bold text */
+  cursor: pointer; /* Pointer cursor */
+  box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.5); /* Subtle shadow */
+  transition: all 0.3s ease; /* Smooth transition */
+}
+
+.btn:hover {
+  background-color: var(--text); /* Darker gradient on hover */
+  transform: translateY(-2px); /* Lift effect */
+  box-shadow: 2px 6px 8px rgba(0, 0, 0, 0.3); /* Enhanced shadow */
+}
+
+.btn:active {
+  transform: translateY(1px); /* Pressed down effect */
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Subtle shadow on click */
+}
+
+body{
+  background: linear-gradient(90deg, white, grey, white);
+  background-size: cover;
+  background-position: center;
+
+}
+
+
+
