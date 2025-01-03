@@ -1,4 +1,6 @@
 {
+  "homepage": "https://your-username.github.io/your-repository-name"
+
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
